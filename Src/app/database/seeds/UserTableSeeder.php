@@ -15,7 +15,7 @@ class UserTableSeeder extends Seeder
 			'password' => Hash::make('luarbiasa123'),
 		));
 	
-
+		DB::table('users')->insert('$users');
 	}
 
 }
